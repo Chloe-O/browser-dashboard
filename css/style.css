@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -10,4 +11,20 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.link-text {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.link-text:hover {
+    color: #f3f72b;
+    border-bottom: 1px solid #f3f72b;
+    text-shadow: 1px 1px 2px #474747;
+}
+
+.fa-up-right-from-square {
+    font-size: 10px;
 }
