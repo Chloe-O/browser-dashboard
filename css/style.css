@@ -13,16 +13,33 @@ body {
     background-size: cover;
 }
 
+main {
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#time {
+    text-align: center;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*LINKS*/
+
 .link-text {
     text-decoration: none;
     color: #ffffff;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 0px 0px 10px #000000;
 }
 
 .link-text:hover {
-    color: #f3f72b;
-    border-bottom: 1px solid #f3f72b;
-    text-shadow: 1px 1px 2px #474747;
+    cursor: pointer;
 }
 
 .fa-up-right-from-square {
