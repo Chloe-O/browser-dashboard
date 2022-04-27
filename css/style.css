@@ -51,9 +51,20 @@ main {
     flex-direction: column;
 }
 
+#weather-icon {
+    margin-right: 7px;
+}
+
 #weather-icon-temp {
-    font-size: 40px;
+    font-size: 2.5rem;
     display: flex;
+}
+
+/*TIME*/
+
+#time {
+    font-size: 12rem;
+    font-weight: lighter;
 }
 
 /*LINKS*/

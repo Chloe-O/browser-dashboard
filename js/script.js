@@ -17,7 +17,7 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
 
 // Crypto
 
-const cryptoIcon = document.getElementById("crypto-icon") //
+const cryptoIcon = document.getElementById("crypto-icon")
 const cryptoInfo = document.getElementById("crypto-info")
 
 fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
@@ -55,38 +55,34 @@ navigator.geolocation.getCurrentPosition((position) => {
             }  return res.json()
         })
         .then(data => {
-            console.log(data)
-            console.log(data.main.temp)
-            console.log(data.weather[0].description)
-            console.log(data.name)
 
-            weatherTemp.innerHTML = `${Math.round(data.main.temp)}°`
+            weatherTemp.innerHTML = `${Math.round(data.main.temp)}° `
             weatherLocation.innerHTML = data.name
 
-            
             switch (data.weather[0].description) {
                 case "clear sky":
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-sun"></i>`
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-sun"></i> `
                     break;
-                case "broken clouds" || "few clouds" || "scattered clouds" :
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud"></i>`
+                case "broken clouds" || "few clouds" || "scattered clouds" || "overcast clouds":
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud"></i> `
                     break;
                 case "shower rain":
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud-rain"></i>`
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud-rain"></i> `
                     break;
                 case "rain":
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud-showers-heavy"></i>`
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud-showers-heavy"></i> `
                     break;
                 case "thunderstorm":
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud-bolt"></i>`
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud-bolt"></i> `
                     break;
                 case "snow":
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-snowflake"></i>`
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-snowflake"></i> `
                     break;
                 case "mist":
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-smog"></i>`
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-smog"></i> `
+                    break;
                 default:
-                    weatherIcon.innerHTML = `<i class="fa-solid fa-sun"></i>`    
+                    weatherIcon.innerHTML = `<i class="fa-solid fa-cloud"></i> `    
             }
         })
         .catch(err => console.error(err))
