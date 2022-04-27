@@ -33,6 +33,19 @@ main {
     justify-content: space-between;
 }
 
+/*CRYPTO*/
+
+#crypto {
+    display: flex;
+    align-items: center;
+}
+
+#crypto-icon {
+    margin-right: 5px;
+}
+
+/*WEATHER*/
+
 /*LINKS*/
 
 .link-text {
