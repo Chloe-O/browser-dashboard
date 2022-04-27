@@ -46,6 +46,16 @@ main {
 
 /*WEATHER*/
 
+#weather {
+    display: flex;
+    flex-direction: column;
+}
+
+#weather-icon-temp {
+    font-size: 40px;
+    display: flex;
+}
+
 /*LINKS*/
 
 .link-text {
