@@ -14,14 +14,11 @@ For this project I created a dashboard inspired by that of Momentum's and Google
 
 ## Credits 
 
-* [Responsive background image](https://css-tricks.com/perfect-full-page-background-image/#awesome-easy-progressive-css3-way)  - bg image 
-* [Alternative background image by eberhard grossgasteiger](https://www.pexels.com/photo/down-angle-photography-of-red-clouds-and-blue-sky-844297/)
+* [Responsive background image CCS tricks](https://css-tricks.com/perfect-full-page-background-image/#awesome-easy-progressive-css3-way)
+* [Alternative background image by eberhard grossgasteiger on Pexels](https://www.pexels.com/photo/down-angle-photography-of-red-clouds-and-blue-sky-844297/)
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com/)
 * [OpenWeatherMap API](https://openweathermap.org/)
 * [Coin Gecko API](https://www.coingecko.com/)
 * [Unsplash API](https://unsplash.com/)
-* [title](https://www.example.com)
-* [title](https://www.example.com)
-* [title](https://www.example.com)
 
