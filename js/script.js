@@ -57,7 +57,9 @@ navigator.geolocation.getCurrentPosition((position) => {
         .then(data => {
 
             weatherTemp.innerHTML = `${Math.round(data.main.temp)}° `
-            weatherLocation.innerHTML = data.name
+            weatherLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${data.name}`
+
+            // data.weather[0].description = "shower rain"
 
             switch (data.weather[0].description) {
                 case "clear sky":
