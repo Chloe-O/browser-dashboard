@@ -1,3 +1,5 @@
+[Live site](https://chloe-o.github.io/browser-dashboard/)
+
 # Personal Dashboard
 
 For this project I created a dashboard inspired by that of Momentum's and Google Chrome's default to practice making use of APIs. The dashboard makes use of the OpenWeatherMap, Unsplash and Coin Gecko APIs.
