@@ -11,7 +11,7 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
     })
     .catch(err => {
         console.log(err)
-        document.body.style.backgroundImage = `url(/media/alt-bg.jpg)`
+        document.body.style.backgroundImage = `url(./media/alt-bg.jpg)`
         authorProfile.innerHTML = `<a class="link-text" target="_blank" href="https://www.pexels.com/@eberhardgross?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"> Photo by eberhard grossgasteiger from Pexels </a>`
     })
 
